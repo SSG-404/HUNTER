@@ -1,7 +1,7 @@
 import os, platform, time, sys
 os.system('clear')
 print('\033[1;97m [💸] Checking For Update...')
-os.system('git pull --quiet 2>/dev/null')
+os.system('git pull')
 os.system('clear')
 bit = platform.architecture()[0]
 if bit == '64bit':
